@@ -1,0 +1,11 @@
+目的：爬取billboard本周榜单歌曲信息，信息包括歌曲名称，所属专辑，歌手，歌曲的网页链接，歌词
+
+问题一：response.text re.findall 返回的结果不对，而 html(从response里复制得到的） re.findall返回的结果正确
+猜想：是不是要把response.text先解析一下
+
+要把sing的id也返回，便于进入歌手首页，提取信息
+
+目的：爬取taylor 1989的全部歌词，1.做主题分析 2.做RNN生成歌词
+过程：
+
+
